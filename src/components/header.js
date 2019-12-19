@@ -1,17 +1,63 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import { Container } from 'semantic-ui-react'
+/* eslint-disable react/no-did-mount-set-state */
+// External components
+import React from 'react';
+import { Link } from 'gatsby';
+import { Container, Menu } from 'semantic-ui-react';
+import { Location } from '@reach/router';
 
-const Header = ({ siteTitle }) => (
-  <div style={{ background: 'rebeccapurple' }}>
-    <Container>
-      <h1 style={{ padding: '1rem 0', marginBottom: '2rem' }}>
-        <Link style={{ color: 'white' }} to="/">
-          {siteTitle}
-        </Link>
-      </h1>
-    </Container>
-  </div>
-)
+/* == Header ==================================================================
+ *
+ * The horizontal button-bar at the top of every page. JD, Blog, Log in.
+ *
+ * 📲 : layout.js; called without arguments
+ *
+ */
 
-export default Header
+const LinkedItem = ({ children, ...props }) => (
+  <Menu.Item as={Link} activeClassName="active" {...props}>
+    {children}
+  </Menu.Item>
+);
+
+class Header extends React.Component {
+  state = {
+    jdHeaderCSS: {},
+  };
+
+  componentDidMount() {
+    if (location.hostname.indexOf('localhost') === 0) {
+      const jdHeaderCSS = { background: 'red', color: 'lightgrey' };
+      this.setState({ jdHeaderCSS });
+    } else if (location.hostname.indexOf('dev') === 0) {
+      const jdHeaderCSS = { background: 'darkorange' };
+      this.setState({ jdHeaderCSS });
+    }
+  }
+
+  render() {
+    const { jdHeaderCSS } = this.state;
+    return (
+      <Location>
+        {() => {
+          return (
+            <div style={{ marginBottom: '2rem' }}>
+              <Container>
+                <Menu pointing secondary>
+                  <LinkedItem to="/" exact="true" style={jdHeaderCSS}>
+                    Johnny•Decimal
+                  </LinkedItem>
+                  <LinkedItem to="/blog">Blog</LinkedItem>
+                  <LinkedItem to="/login" position="right">
+                    Log in
+                  </LinkedItem>
+                </Menu>
+              </Container>
+            </div>
+          );
+        }}
+      </Location>
+    );
+  }
+}
+
+export default Header;
