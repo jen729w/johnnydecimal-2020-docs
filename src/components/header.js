@@ -5,14 +5,6 @@ import { Link } from 'gatsby';
 import { Container, Menu } from 'semantic-ui-react';
 import { Location } from '@reach/router';
 
-/* == Header ==================================================================
- *
- * The horizontal button-bar at the top of every page. JD, Blog, Log in.
- *
- * 📲 : layout.js; called without arguments
- *
- */
-
 const LinkedItem = ({ children, ...props }) => (
   <Menu.Item as={Link} activeClassName="active" {...props}>
     {children}
