@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-semantic-ui",
-  "description": "Gatsby 2 Semantic UI Starter",
-  "version": "1.0.0",
-  "author": "Richard Blechinger <me@blechi.at>",
+  "name": "johnnydecimal",
+  "description": "Johnny.Decimal – documentation site",
+  "version": "3.0.0",
+  "author": "John Noble <hello@johnnydecimal.com>",
   "dependencies": {
     "gatsby": "2.18.14",
     "gatsby-plugin-less": "^3.0.17",
