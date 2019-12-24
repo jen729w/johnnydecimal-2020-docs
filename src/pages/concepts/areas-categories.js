@@ -12,6 +12,192 @@ import Navigation from '../../components/Navigation';
 import styles from '../../styles/styles.module.css';
 import img_finder_randomNumbers_category22_expanded from '../../images/Finder__random-numbers__category22-expanded.png';
 
+const GroupThingsTogether = () => (
+  <>
+    <span className={styles.solidUnderline}>All the 12 numbers</span>
+    {`      `}
+    <span className={styles.solidUnderline}>All the 13 numbers</span>
+    <br />
+    {`        12.34  12.35            13.03  13.04`}
+    <br />
+    <br />
+    <span className={styles.solidUnderline}>All the 21 numbers</span>
+    {`      `}
+    <span className={styles.solidUnderline}>All the 22 numbers</span>
+    <br />
+    {`        21.01  21.02            22.38  22.39`}
+    <br />
+    <br />
+    <span className={styles.solidUnderline}>All the 23 numbers</span>
+    {`      `}
+    <span className={styles.solidUnderline}>All the 31 numbers</span>
+    <br />
+    {`        23.21  23.22            31.70  31.71`}
+    <br />
+    {`        23.23  23.24`}
+    <br />
+    <br />
+    <span className={styles.solidUnderline}>All the 32 numbers</span>
+    <br />
+    {`        32.55  32.56`}
+  </>
+);
+
+const DoItAgain = () => (
+  <>
+    <span className={styles.solidUnderline}>All the 10-19 numbers</span>
+    <br />
+    {`   `}
+    <span className={styles.dottedUnderline}>All the 12 numbers</span>
+    <br />
+    {`           12.34   12.35`}
+    <br />
+    {`   `}
+    <span className={styles.dottedUnderline}>All the 13 numbers</span>
+    <br />
+    {`           13.03   13.04`}
+    <br />
+    <br />
+    <span className={styles.solidUnderline}>All the 20-29 numbers</span>
+    <br />
+    {`   `}
+    <span className={styles.dottedUnderline}>All the 21 numbers</span>
+    <br />
+    {`           21.01   21.02`}
+    <br />
+    {`   `}
+    <span className={styles.dottedUnderline}>All the 22 numbers</span>
+    <br />
+    {`           22.38   22.39`}
+    <br />
+    {`   `}
+    <span className={styles.dottedUnderline}>All the 23 numbers</span>
+    <br />
+    {`           23.21   23.22`}
+    <br />
+    {`           23.23   23.24`}
+    <br />
+    <br />
+    <span className={styles.solidUnderline}>All the 30-39 numbers</span>
+    <br />
+    {`   `}
+    <span className={styles.dottedUnderline}>All the 31 numbers</span>
+    <br />
+    {`           31.70   31.71`}
+    <br />
+    {`   `}
+    <span className={styles.dottedUnderline}>All the 32 numbers</span>
+    <br />
+    {`           32.55   32.56`}
+  </>
+);
+
+const CompanyNoNumbers = () => (
+  <>
+    {`Folder                                 This is a...`}
+    <br />
+    {`———————————————————————————————————————————————————`}
+    <br />
+    <span className={styles.solidUnderline}>Finance</span>
+    {`                                AREA`}
+    <br />
+    {`    `}
+    <span className={styles.dottedUnderline}>Tax returns</span>
+    {`                        CATEGORY`}
+    <br />
+    {`    `}
+    <span className={styles.dottedUnderline}>Payroll</span>
+    {`                            CATEGORY`}
+    <br />
+    {`        September ’17 payroll          UNIQUE THING`}
+    <br />
+    {`        October ’17 payroll            UNIQUE THING`}
+    <br />
+    {`    `}
+    <span className={styles.dottedUnderline}>Bookkeeping</span>
+    {`                        CATEGORY`}
+    <br />
+    <br />
+    <span className={styles.solidUnderline}>Administration</span>
+    {`                         AREA`}
+    <br />
+    {`    `}
+    <span className={styles.dottedUnderline}>Company registration</span>
+    {`               CATEGORY`}
+    <br />
+    {`    `}
+    <span className={styles.dottedUnderline}>Contracts</span>
+    {`                          CATEGORY`}
+    <br />
+    {`        Cleaning contract              UNIQUE THING`}
+    <br />
+    {`        Office lease                   UNIQUE THING`}
+    <br />
+    {`    `}
+    <span className={styles.dottedUnderline}>Staffing</span>
+    {`                           CATEGORY`}
+    <br />
+    <br />
+    <span className={styles.solidUnderline}>Marketing</span>
+    {`                              AREA`}
+    <br />
+    {`    ...etc.                            ...etc.`}
+  </>
+);
+
+const CompanyWithNumbers = () => (
+  <>
+    {`Folder                                 This is a...`}
+    <br />
+    {`———————————————————————————————————————————————————`}
+    <br />
+    <span className={styles.solidUnderline}>10-19 Finance</span>
+    {`                          AREA`}
+    <br />
+    {`   `}
+    <span className={styles.dottedUnderline}>11 Tax returns</span>
+    {`                      CATEGORY`}
+    <br />
+    {`   `}
+    <span className={styles.dottedUnderline}>12 Payroll</span>
+    {`                          CATEGORY`}
+    <br />
+    {`      12.01 September ’17 payroll      UNIQUE THING`}
+    <br />
+    {`      12.02 October ’17 payroll        UNIQUE THING`}
+    <br />
+    {`   `}
+    <span className={styles.dottedUnderline}>13 Bookkeeping</span>
+    {`                      CATEGORY`}
+    <br />
+    <br />
+    <span className={styles.solidUnderline}>20-29 Administration</span>
+    {`                   AREA`}
+    <br />
+    {`   `}
+    <span className={styles.dottedUnderline}>21 Company registration</span>
+    {`             CATEGORY`}
+    <br />
+    {`   `}
+    <span className={styles.dottedUnderline}>22 Contracts</span>
+    {`                        CATEGORY`}
+    <br />
+    {`      22.01 Cleaning contract          UNIQUE THING`}
+    <br />
+    {`      22.02 Office lease               UNIQUE THING`}
+    <br />
+    {`   `}
+    <span className={styles.dottedUnderline}>32 Staffing</span>
+    {`                         CATEGORY`}
+    <br />
+    <br />
+    <span className={styles.solidUnderline}>30-39 Marketing</span>
+    {`                        AREA`}
+    <br />
+    {`   ...etc.                             ...etc.`}
+  </>
+);
+
 const AreasCategories = () => (
   <Layout>
     <SEO
@@ -41,24 +227,18 @@ const AreasCategories = () => (
         <pre
           className={`
             ${styles.johnnyDecimal_boxed}
-            ${styles.johnnyDecimal_inlineBlock}
-          `}
+            ${styles.johnnyDecimal_inlineBlock}`}
         >
-          23.24&nbsp;&nbsp;31.70
-          <br />
-          22.39&nbsp;&nbsp;13.04
-          <br />
-          31.71&nbsp;&nbsp;21.02
-          <br />
-          22.38&nbsp;&nbsp;13.03
-          <br />
-          23.21&nbsp;&nbsp;23.22
-          <br />
-          32.56&nbsp;&nbsp;12.34
-          <br />
-          12.35&nbsp;&nbsp;21.01
-          <br />
-          32.55&nbsp;&nbsp;23.23
+          <span>
+            {`23.24   31.70
+22.39   13.04
+31.71   21.02
+22.38   13.03
+23.21   23.22
+32.56   12.34
+12.35   21.01
+32.55   23.23`}
+          </span>
         </pre>
       </Grid.Column>
       <Grid.Column>
@@ -86,43 +266,7 @@ const AreasCategories = () => (
             ${styles.johnnyDecimal_inlineBlock}
           `}
           >
-            <span className={styles.solidUnderline}>All the 12 numbers</span>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <span className={styles.solidUnderline}>All the 13 numbers</span>
-            <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12.34
-            &nbsp;&nbsp;12.35
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13.03
-            &nbsp;&nbsp;13.04
-            <br />
-            <br />
-            <span className={styles.solidUnderline}>All the 21 numbers</span>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <span className={styles.solidUnderline}>All the 22 numbers</span>
-            <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;21.01
-            &nbsp;&nbsp;21.02
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;22.38
-            &nbsp;&nbsp;22.39
-            <br />
-            <br />
-            <span className={styles.solidUnderline}>All the 23 numbers</span>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <span className={styles.solidUnderline}>All the 31 numbers</span>
-            <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;23.21
-            &nbsp;&nbsp;23.22
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;31.70
-            &nbsp;&nbsp;31.71
-            <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;23.23
-            &nbsp;&nbsp;23.24
-            <br />
-            <br />
-            <span className={styles.solidUnderline}>All the 32 numbers</span>
-            <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;32.55
-            &nbsp;&nbsp;32.56
+            <GroupThingsTogether />
           </pre>
         </Grid.Column>
         <Grid.Column width={5}>
@@ -152,43 +296,7 @@ const AreasCategories = () => (
             ${styles.johnnyDecimal_inlineBlock_smallFontForMobile}
           `}
           >
-            <span className={styles.solidUnderline}>All the 12 numbers</span>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <span className={styles.solidUnderline}>All the 13 numbers</span>
-            <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12.34
-            &nbsp;&nbsp;12.35
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13.03
-            &nbsp;&nbsp;13.04
-            <br />
-            <br />
-            <span className={styles.solidUnderline}>All the 21 numbers</span>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <span className={styles.solidUnderline}>All the 22 numbers</span>
-            <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;21.01
-            &nbsp;&nbsp;21.02
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;22.38
-            &nbsp;&nbsp;22.39
-            <br />
-            <br />
-            <span className={styles.solidUnderline}>All the 23 numbers</span>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <span className={styles.solidUnderline}>All the 31 numbers</span>
-            <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;23.21
-            &nbsp;&nbsp;23.22
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;31.70
-            &nbsp;&nbsp;31.71
-            <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;23.23
-            &nbsp;&nbsp;23.24
-            <br />
-            <br />
-            <span className={styles.solidUnderline}>All the 32 numbers</span>
-            <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;32.55
-            &nbsp;&nbsp;32.56
+            <GroupThingsTogether />
           </pre>
         </Grid.Column>
       </Grid>
@@ -207,58 +315,7 @@ const AreasCategories = () => (
             ${styles.johnnyDecimal_inlineBlock}
           `}
           >
-            <span className={styles.solidUnderline}>All the 10-19 numbers</span>
-            <br />
-            &nbsp;&nbsp;&nbsp;
-            <span className={styles.dottedUnderline}>All the 12 numbers</span>
-            <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12.34
-            &nbsp;&nbsp;12.35
-            <br />
-            &nbsp;&nbsp;&nbsp;
-            <span className={styles.dottedUnderline}>All the 13 numbers</span>
-            <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13.03
-            &nbsp;&nbsp;13.04
-            <br />
-            <br />
-            <span className={styles.solidUnderline}>All the 20-29 numbers</span>
-            <br />
-            &nbsp;&nbsp;&nbsp;
-            <span className={styles.dottedUnderline}>All the 21 numbers</span>
-            <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;21.01
-            &nbsp;&nbsp;21.02
-            <br />
-            &nbsp;&nbsp;&nbsp;
-            <span className={styles.dottedUnderline}>All the 22 numbers</span>
-            <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;22.38
-            &nbsp;&nbsp;22.39
-            <br />
-            &nbsp;&nbsp;&nbsp;
-            <span className={styles.dottedUnderline}>All the 23 numbers</span>
-            <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;23.21
-            &nbsp;&nbsp;23.22
-            <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;23.23
-            &nbsp;&nbsp;23.24
-            <br />
-            <br />
-            <span className={styles.solidUnderline}>All the 30-39 numbers</span>
-            <br />
-            &nbsp;&nbsp;&nbsp;
-            <span className={styles.dottedUnderline}>All the 31 numbers</span>
-            <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;31.70
-            &nbsp;&nbsp;31.71
-            <br />
-            &nbsp;&nbsp;&nbsp;
-            <span className={styles.dottedUnderline}>All the 32 numbers</span>
-            <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;32.55
-            &nbsp;&nbsp;32.56
+            <DoItAgain />
           </pre>
         </Grid.Column>
         <Grid.Column width={9}>
@@ -286,58 +343,7 @@ const AreasCategories = () => (
             ${styles.johnnyDecimal_inlineBlock}
           `}
           >
-            <span className={styles.solidUnderline}>All the 10-19 numbers</span>
-            <br />
-            &nbsp;&nbsp;&nbsp;
-            <span className={styles.dottedUnderline}>All the 12 numbers</span>
-            <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12.34
-            &nbsp;&nbsp;12.35
-            <br />
-            &nbsp;&nbsp;&nbsp;
-            <span className={styles.dottedUnderline}>All the 13 numbers</span>
-            <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13.03
-            &nbsp;&nbsp;13.04
-            <br />
-            <br />
-            <span className={styles.solidUnderline}>All the 20-29 numbers</span>
-            <br />
-            &nbsp;&nbsp;&nbsp;
-            <span className={styles.dottedUnderline}>All the 21 numbers</span>
-            <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;21.01
-            &nbsp;&nbsp;21.02
-            <br />
-            &nbsp;&nbsp;&nbsp;
-            <span className={styles.dottedUnderline}>All the 22 numbers</span>
-            <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;22.38
-            &nbsp;&nbsp;22.39
-            <br />
-            &nbsp;&nbsp;&nbsp;
-            <span className={styles.dottedUnderline}>All the 23 numbers</span>
-            <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;23.21
-            &nbsp;&nbsp;23.22
-            <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;23.23
-            &nbsp;&nbsp;23.24
-            <br />
-            <br />
-            <span className={styles.solidUnderline}>All the 30-39 numbers</span>
-            <br />
-            &nbsp;&nbsp;&nbsp;
-            <span className={styles.dottedUnderline}>All the 31 numbers</span>
-            <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;31.70
-            &nbsp;&nbsp;31.71
-            <br />
-            &nbsp;&nbsp;&nbsp;
-            <span className={styles.dottedUnderline}>All the 32 numbers</span>
-            <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;32.55
-            &nbsp;&nbsp;32.56
+            <DoItAgain />
           </pre>
         </Grid.Column>
       </Grid>
@@ -413,65 +419,7 @@ const AreasCategories = () => (
         ${styles.johnnyDecimal_inlineBlock_marginBottom}
       `}
     >
-      Folder&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      This is a...
-      <br />
-      ———————————————————————————————————————————————————
-      <br />
-      <span className={styles.solidUnderline}>Finance</span>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      AREA
-      <br />
-      &nbsp;&nbsp;&nbsp;&nbsp;
-      <span className={styles.dottedUnderline}>Tax returns</span>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CATEGORY
-      <br />
-      &nbsp;&nbsp;&nbsp;&nbsp;
-      <span className={styles.dottedUnderline}>Payroll</span>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CATEGORY
-      <br />
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;September ’17
-      payroll&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UNIQUE
-      THING
-      <br />
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;October ’17
-      payroll&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UNIQUE
-      THING
-      <br />
-      &nbsp;&nbsp;&nbsp;&nbsp;
-      <span className={styles.dottedUnderline}>Bookkeeping</span>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CATEGORY
-      <br />
-      <br />
-      <span className={styles.solidUnderline}>Administration</span>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AREA
-      <br />
-      &nbsp;&nbsp;&nbsp;&nbsp;
-      <span className={styles.dottedUnderline}>Company registration</span>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      CATEGORY
-      <br />
-      &nbsp;&nbsp;&nbsp;&nbsp;
-      <span className={styles.dottedUnderline}>Contracts</span>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CATEGORY
-      <br />
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cleaning
-      contract&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UNIQUE
-      THING
-      <br />
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Office lease
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      UNIQUE THING
-      <br />
-      &nbsp;&nbsp;&nbsp;&nbsp;
-      <span className={styles.dottedUnderline}>Staffing</span>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CATEGORY
-      <br />
-      <br />
-      <span className={styles.solidUnderline}>Marketing</span>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AREA
-      <br />
-      &nbsp;&nbsp;&nbsp;&nbsp;...etc.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...etc.
+      <CompanyNoNumbers />
     </pre>
 
     <p>
@@ -496,62 +444,7 @@ const AreasCategories = () => (
         ${styles.johnnyDecimal_inlineBlock_smallFontForMobile}
       `}
     >
-      Folder&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This
-      is a...
-      <br />
-      ———————————————————————————————————————————————————
-      <br />
-      <span className={styles.solidUnderline}>10-19 Finance</span>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AREA
-      <br />
-      &nbsp;&nbsp;&nbsp;
-      <span className={styles.dottedUnderline}>11 Tax returns</span>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CATEGORY
-      <br />
-      &nbsp;&nbsp;&nbsp;
-      <span className={styles.dottedUnderline}>12 Payroll</span>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CATEGORY
-      <br />
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12.01 September ’17
-      payroll&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UNIQUE THING
-      <br />
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12.02 October ’17
-      payroll&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UNIQUE THING
-      <br />
-      &nbsp;&nbsp;&nbsp;
-      <span className={styles.dottedUnderline}>13 Bookkeeping</span>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CATEGORY
-      <br />
-      <br />
-      <span className={styles.solidUnderline}>20-29 Administration</span>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AREA
-      <br />
-      &nbsp;&nbsp;&nbsp;
-      <span className={styles.dottedUnderline}>21 Company registration</span>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      CATEGORY
-      <br />
-      &nbsp;&nbsp;&nbsp;
-      <span className={styles.dottedUnderline}>22 Contracts</span>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CATEGORY
-      <br />
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;22.01 Cleaning
-      contract&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UNIQUE
-      THING
-      <br />
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;22.02 Office
-      lease&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UNIQUE
-      THING
-      <br />
-      &nbsp;&nbsp;&nbsp;
-      <span className={styles.dottedUnderline}>23 Staffing</span>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CATEGORY
-      <br />
-      <br />
-      <span className={styles.solidUnderline}>30-39 Marketing</span>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AREA
-      <br />
-      &nbsp;&nbsp;&nbsp;...etc.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...etc.
+      <CompanyWithNumbers />
     </pre>
 
     <Header size="large" dividing className={styles.headerLarge_bordered}>
@@ -605,7 +498,7 @@ const AreasCategories = () => (
       </strong>
     </p>
 
-    <Header size="medium" dividing>
+    <Header size="large" dividing className={styles.headerLarge_bordered}>
       The Johnny.Decimal version
     </Header>
 
