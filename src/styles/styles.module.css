@@ -12,9 +12,10 @@
   border: 1px solid lightgrey !important;
   border-radius: 3px !important;
   background: #f0f0f0 !important;
-  font-family: monospace !important;
-  padding: 1px 4px !important;
-  white-space: nowrap !important;
+  font-family: 'Fira Mono' !important;
+  padding: 2px 4px !important;
+  line-height: 1.5em !important; /* Default of 1.7 is a bit high here */
+  /* white-space: nowrap !important; */
 }
 
 .johnnyDecimal_large {
@@ -44,7 +45,7 @@
 
 @media screen and (max-width: 567px) {
   .johnnyDecimal_inlineBlock_smallFontForMobile {
-    font-size: 0.5em !important;
+    font-size: 0.7em !important;
     line-height: 1.6em;
   }
 }
