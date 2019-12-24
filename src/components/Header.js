@@ -38,10 +38,16 @@ class Header extends React.Component {
                   <LinkedItem to="/" exact="true" style={jdHeaderCSS}>
                     Johnny•Decimal
                   </LinkedItem>
-                  <LinkedItem to="/blog">Blog</LinkedItem>
-                  <LinkedItem to="/login" position="right">
-                    Log in
-                  </LinkedItem>
+                  <Menu.Item>
+                    <div>
+                      <a
+                        href="https://blog.johnnydecimal.com"
+                        style={{ color: 'rgba(0, 0, 0, 0.87)' }}
+                      >
+                        Blog
+                      </a>
+                    </div>
+                  </Menu.Item>
                 </Menu>
               </Container>
             </div>
