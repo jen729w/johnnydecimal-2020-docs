@@ -7,15 +7,16 @@ import React from 'react';
 import styles from '../styles/styles.module.css';
 
 const Version = () => (
-  <div className={styles.version}>v3.0.0 2019-12-19 14:42</div>
+  <div className={styles.version}>v3.0.0 2019-12-26 17:21</div>
 );
 
 export default Version;
 
 /* == Version number history ==================================================
  *
- * v3.0.0e2019-12-19 14:42  Started again to clear up the hot mess that was
+ * v3.0.0 2019-12-26 17:21  Started again to clear up the hot mess that was
  *                          authentication in the previous version.
+ * -----------------------
  * v2.2.2 2019-01-09 08:42  Fix component.js → Component.js
  * F2.2.1 2019-01-09 08:15  Lift email form state up b/c <Responsive>; jest
  * v2.1.2 2019-01-06 10:49  Tweak the form; add option to email
