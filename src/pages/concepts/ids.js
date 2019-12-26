@@ -127,10 +127,10 @@ const IDs = () => (
     </p>
 
     <Navigation
-      backURL="/concepts/areas-categories"
-      backTitle="Areas & categories"
-      forwardURL="/concepts/saving-files"
-      forwardTitle="Saving files"
+      backURL={'/concepts/areas-categories'}
+      backTitle={'Areas & categories'}
+      forwardURL={'/concepts/saving-files'}
+      forwardTitle={'Saving files'}
     />
   </Layout>
 );

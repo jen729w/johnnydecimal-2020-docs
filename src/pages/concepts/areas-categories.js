@@ -572,8 +572,8 @@ const AreasCategories = () => (
     <Navigation
       backURL={'/concepts'}
       backTitle={'Concepts'}
-      forwardURL="/concepts/ids"
-      forwardTitle="IDs"
+      forwardURL={'/concepts/ids'}
+      forwardTitle={'IDs'}
     />
   </Layout>
 );
