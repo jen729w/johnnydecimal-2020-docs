@@ -23,7 +23,7 @@ const Privacy = () => (
       spiel. It’s me, Johnny Noble, talking to you, my honoured guest.
     </p>
 
-    <JDH2>Web trackers</JDH2>
+    <JDH2>Web trackers & cookies</JDH2>
 
     <p>
       I hate trackers more than you do. This site will <strong>never</strong>{' '}
@@ -31,9 +31,11 @@ const Privacy = () => (
       code that attempts to uniquely identify you and follow you around the web.
     </p>
 
+    <p>This site has no need for cookies, and does not use them.</p>
+
     <JDH2>Visitor metrics</JDH2>
 
-    <p>I turned them off. All gone. Nada. Not a sausage. Zero, zilch, etc.</p>
+    <p>Late-2019 update: I removed all of the metrics from this site.</p>
 
     <p style={{ textDecoration: 'line-through' }}>
       I do have a personal interest in the number of people visiting this site,
@@ -54,6 +56,14 @@ const Privacy = () => (
       If you choose to <Link to="/contact/">give me your email address</Link>, I
       will treat it with the utmost respect. I’ll never spam you, or give it to
       anyone else.
+    </p>
+
+    <p>
+      In 2019 I moved from Mailchimp, whose business model started to make me
+      uncomfortable, to <a href="https://buttondown.email">Buttondown</a>. It’s
+      run by one guy who I trust to do the right thing. I’ve turned off all
+      analytics features, so I don’t know who opens, clicks, or forwards my
+      emails.
     </p>
 
     <JDH2>Google Fonts</JDH2>
