@@ -1,0 +1,114 @@
+// External components
+import React from 'react';
+import { Header, Divider } from 'semantic-ui-react';
+import { Link } from 'gatsby';
+
+// Internal components
+import Layout from '../../components/Layout';
+import SEO from '../../components/SEO';
+import Navigation from '../../components/Navigation';
+
+// Helper functions, styles, images, etc.
+import styles from '../../styles/styles.module.css';
+
+const WhatAbout0009 = () => (
+  <Layout>
+    <SEO
+      title={'What about 00-09?'}
+      description={'Why haven’t we used 00-09 so far?'}
+    />
+
+    <Header size="huge" dividing className={styles.headerHuge_bordered}>
+      What about 00-09?
+    </Header>
+
+    <p>
+      You may be wondering why we started our areas at{' '}
+      <span className={styles.johnnyDecimal_boxed}>10-19</span> and not{' '}
+      <span className={styles.johnnyDecimal_boxed}>00-09</span>, and our
+      categories at <span className={styles.johnnyDecimal_boxed}>11</span>{' '}
+      rather than <span className={styles.johnnyDecimal_boxed}>10</span>.
+    </p>
+
+    <Header size="large" dividing className={styles.headerLarge_bordered}>
+      We reserve these for the system
+    </Header>
+
+    <p>
+      Sometimes you want to keep information <em>about the system</em>, in the
+      system. <strong>I call this ‘Management &amp; Meta’.</strong>
+    </p>
+
+    <p>
+      <a href="https://en.wikipedia.org/wiki/Meta">Meta</a> basically means
+      ‘self-referential’. It’s about itself. Get it? If not, don’t stress.
+    </p>
+
+    <Divider section />
+
+    <Header size="huge" dividing className={styles.headerHuge_bordered}>
+      00-09 is about the system itself
+    </Header>
+
+    <p>
+      I always reserve these numbers for a special area called{' '}
+      <span className={styles.johnnyDecimal_boxed}>
+        00-09 Management &amp; Meta
+      </span>
+      . Inevitably I want to store some information in my Johnny.Decimal system{' '}
+      <em>about my Johnny.Decimal system</em>. That goes here.
+    </p>
+
+    <p>
+      For example, I have to save{' '}
+      <Link to="/concepts/keeping-notes/">text notes</Link> in a folder on my
+      disk. That folder has to live somewhere, and it lives in a category in{' '}
+      <span className={styles.johnnyDecimal_boxed}>00-09</span>.
+    </p>
+
+    <p>
+      One of the text notes I keep at work serves as a quick-reference index to
+      my Johnny.Decimal system. It’s called{' '}
+      <span className={styles.johnnyDecimal_boxed}>00.00 Index</span>.
+    </p>
+
+    <Header size="large" dividing className={styles.headerLarge_bordered}>
+      10, 20, 30 … 90 are about those categories
+    </Header>
+
+    <p>
+      In the example we’ve been using,{' '}
+      <span className={styles.johnnyDecimal_boxed}>20-29</span> was{' '}
+      <span className={styles.johnnyDecimal_boxed}>Administration</span> but our
+      first category was{' '}
+      <span className={styles.johnnyDecimal_boxed}>
+        21 Company registration
+      </span>
+      . What happened to <span className={styles.johnnyDecimal_boxed}>20</span>?
+    </p>
+
+    <p>
+      We reserve these numbers for ‘management &amp; meta’ information{' '}
+      <em>about the category</em>. Although I hardly ever use them, it’s rare
+      that I have more than nine categories in an area. I don’t miss the wasted
+      number.
+    </p>
+
+    <Divider section />
+
+    <Header size="huge" dividing className={styles.headerHuge_bordered}>
+      Confused? Don’t worry
+    </Header>
+
+    <p>If you want to use the zeros, use them. It doesn’t matter.</p>
+
+    <Navigation
+      backURL={'/concepts/managing-email'}
+      backTitle={'Managing email'}
+      forwardURL="/concepts/working-at-the-terminal"
+      forwardTitle="Working at the terminal"
+    />
+  </Layout>
+);
+
+export default WhatAbout0009;
