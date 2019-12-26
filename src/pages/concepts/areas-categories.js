@@ -388,7 +388,7 @@ const AreasCategories = () => (
         buckets of stuff. We call those our <strong>areas</strong>, and we
         assign each area a range like{' '}
         <span className={styles.johnnyDecimal_boxed}>10-19</span>,{' '}
-        <span className={styles.johnnyDecimal_boxed}>30-39</span> …{' '}
+        <span className={styles.johnnyDecimal_boxed}>20-29</span> …{' '}
         <span className={styles.johnnyDecimal_boxed}>90-99</span>.
       </li>
       <li>
@@ -407,7 +407,7 @@ const AreasCategories = () => (
     </ul>
 
     <p>
-      Let’s use a small company as an example, and write it out minus the
+      Let’s use a small company as an example, and write it out without the
       numbers.
     </p>
 
@@ -572,8 +572,8 @@ const AreasCategories = () => (
     <Navigation
       backURL={'/concepts'}
       backTitle={'Concepts'}
-      forwardURL="/concepts/ids"
-      forwardTitle="IDs"
+      forwardURL={'/concepts/ids'}
+      forwardTitle={'IDs'}
     />
   </Layout>
 );

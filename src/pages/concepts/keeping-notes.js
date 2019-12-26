@@ -185,14 +185,17 @@ const KeepingNotes = () => (
     <p>
       For Mac, <a href="http://brettterpstra.com/projects/nvalt/">nvALT</a> is
       what I use. It synchronises to Simplenote and is quick and simple, but
-      it’s a bit old and not updated often. I think the developers are working
-      on something new, which I’ll buy the instant it’s available. Free.
+      it’s ancient now and isn’t being updated. The developers are working on{' '}
+      <a href="https://nvultra.com/">nvUltra</a>, which I’ll buy the instant
+      it’s available.
     </p>
 
     <p>
-      For iOS, <a href="https://simplenote.com">Simplenote</a> has an app or you
-      can use the beautiful <a href="http://www.bear-writer.com">Bear</a>. It
-      also has a macOS version. Real pretty like, but $ > 0.
+      For iOS, <a href="https://simplenote.com">Simplenote</a> has an app. There
+      are tons of other options – see{' '}
+      <a href="http://www.bear-writer.com">Bear</a>, or just search the App
+      Store. As long as it synchronises and allows quick search of all of your
+      notes, it’ll work.
     </p>
 
     <Navigation

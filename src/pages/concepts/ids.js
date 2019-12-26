@@ -62,8 +62,8 @@ const IDs = () => (
     </span>
 
     <p>
-      Later, we need to store another contract. What to do? Well, just use the
-      next number.
+      Later, we need to store another contract. What to do? Just use the next
+      number.
     </p>
 
     <span
@@ -91,7 +91,7 @@ const IDs = () => (
       up.
     </p>
 
-    <Header size="medium" dividing>
+    <Header size="large" dividing className={styles.headerLarge_bordered}>
       “What happens when I get to 99?”
     </Header>
 
@@ -127,10 +127,10 @@ const IDs = () => (
     </p>
 
     <Navigation
-      backURL="/concepts/areas-categories"
-      backTitle="Areas & categories"
-      forwardURL="/concepts/saving-files"
-      forwardTitle="Saving files"
+      backURL={'/concepts/areas-categories'}
+      backTitle={'Areas & categories'}
+      forwardURL={'/concepts/saving-files'}
+      forwardTitle={'Saving files'}
     />
   </Layout>
 );
