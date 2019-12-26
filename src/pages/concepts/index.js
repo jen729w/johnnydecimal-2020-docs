@@ -7,6 +7,7 @@ import { Link } from 'gatsby';
 import Layout from '../../components/Layout';
 import SEO from '../../components/SEO';
 import Navigation from '../../components/Navigation';
+import { JDH1, JDH2 } from '../../components/JDH1H2';
 
 // Helper functions, styles, images, etc.
 import styles from '../../styles/styles.module.css';
@@ -18,9 +19,7 @@ const Concepts = () => (
       description={'A link to all of the Johnny.Decimal concepts pages.'}
     />
 
-    <Header size="huge" dividing className={styles.headerHuge_bordered}>
-      Concepts
-    </Header>
+    <JDH1>Concepts</JDH1>
 
     <p>
       In this section I will walk you through all of the core concepts in
@@ -47,9 +46,7 @@ const Concepts = () => (
       <Link to="/contact/">get in touch</Link> and I will help you.
     </p>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      Core
-    </Header>
+    <JDH2>Core</JDH2>
 
     <p>
       You should be familiar with this section before you attempt to start your
@@ -79,9 +76,7 @@ const Concepts = () => (
       </List.Item>
     </List>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      Advanced
-    </Header>
+    <JDH2>Advanced</JDH2>
 
     <p>
       You do not need to know everything in this section initially, but you will

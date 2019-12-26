@@ -7,6 +7,7 @@ import { Link } from 'gatsby';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import Navigation from '../components/Navigation';
+import { JDH1, JDH2 } from '../components/JDH1H2';
 
 // Helper functions, styles, images, etc.
 import styles from '../styles/styles.module.css';
@@ -14,9 +15,7 @@ import styles from '../styles/styles.module.css';
 const Privacy = () => (
   <Layout>
     <SEO title={'Privacy'} description={'Johnny.Decimal’s privacy policy.'} />
-    <Header size="huge" dividing className={styles.headerHuge_bordered}>
-      Privacy
-    </Header>
+    <JDH1>Privacy</JDH1>
 
     <p>
       I’m just a nerd building a site for a thing that I personally find useful.
@@ -24,9 +23,7 @@ const Privacy = () => (
       spiel. It’s me, Johnny Noble, talking to you, my honoured guest.
     </p>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      Web trackers
-    </Header>
+    <JDH2>Web trackers</JDH2>
 
     <p>
       I hate trackers more than you do. This site will <strong>never</strong>{' '}
@@ -34,9 +31,7 @@ const Privacy = () => (
       code that attempts to uniquely identify you and follow you around the web.
     </p>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      Visitor metrics
-    </Header>
+    <JDH2>Visitor metrics</JDH2>
 
     <p>I turned them off. All gone. Nada. Not a sausage. Zero, zilch, etc.</p>
 
@@ -53,9 +48,7 @@ const Privacy = () => (
       anyone else to visits to any other site.
     </p>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      Your email address
-    </Header>
+    <JDH2>Your email address</JDH2>
 
     <p>
       If you choose to <Link to="/contact/">give me your email address</Link>, I
@@ -63,9 +56,7 @@ const Privacy = () => (
       anyone else.
     </p>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      Google Fonts
-    </Header>
+    <JDH2>Google Fonts</JDH2>
 
     <p>
       Google Fonts is used to load the fonts on this page.{' '}
@@ -76,9 +67,7 @@ const Privacy = () => (
       , but I don’t mind if you block them. The site will still work.
     </p>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      Adverts
-    </Header>
+    <JDH2>Adverts</JDH2>
 
     <p>
       It’s hard to imagine that this site would ever be popular enough to tempt

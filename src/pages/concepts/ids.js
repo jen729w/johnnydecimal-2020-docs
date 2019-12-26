@@ -6,6 +6,7 @@ import { Header } from 'semantic-ui-react';
 import Layout from '../../components/Layout';
 import SEO from '../../components/SEO';
 import Navigation from '../../components/Navigation';
+import { JDH1, JDH2 } from '../../components/JDH1H2';
 
 // Helper functions, styles, images, etc.
 import styles from '../../styles/styles.module.css';
@@ -19,9 +20,7 @@ const IDs = () => (
       }
     />
 
-    <Header size="huge" dividing className={styles.headerHuge_bordered}>
-      IDs
-    </Header>
+    <JDH1>IDs</JDH1>
 
     <p>
       Let’s get on to the decimal. We have a category—let’s say{' '}
@@ -75,9 +74,7 @@ const IDs = () => (
       22.02 Office lease
     </span>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      That was easy
-    </Header>
+    <JDH2>That was easy</JDH2>
 
     <p>
       You create a full Johnny.Decimal number by choosing a category and{' '}
@@ -91,18 +88,14 @@ const IDs = () => (
       up.
     </p>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      “What happens when I get to 99?”
-    </Header>
+    <JDH2>“What happens when I get to 99?”</JDH2>
 
     <p>
       You never will. And if you do, the category you defined was almost
       certainly too broad. Split it up.
     </p>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      Give your Johnny.Decimal items simple names
-    </Header>
+    <JDH2>Give your Johnny.Decimal items simple names</JDH2>
 
     <p>
       This system lets us give concise names to things, because we already know

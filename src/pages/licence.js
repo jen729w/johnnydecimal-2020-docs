@@ -1,15 +1,15 @@
 // External components
 import React from 'react';
 import { Header } from 'semantic-ui-react';
-import { Link } from 'gatsby';
 
 // Internal components
-import Layout from '../../components/Layout';
-import SEO from '../../components/SEO';
-import Navigation from '../../components/Navigation';
+import Layout from '../components/Layout';
+import SEO from '../components/SEO';
+import Navigation from '../components/Navigation';
+import { JDH1, JDH2 } from '../components/JDH1H2';
 
 // Helper functions, styles, images, etc.
-import styles from '../../styles/styles.module.css';
+import styles from '../styles/styles.module.css';
 
 const Licence = () => (
   <Layout>
@@ -17,15 +17,13 @@ const Licence = () => (
       title={'Licence'}
       description={'What licence terms apply to Johnny.Decimal?'}
     />
-    <Header size="huge" dividing className={styles.headerHuge_bordered}>
-      Licence
-    </Header>
+    <JDH1>Licence</JDH1>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      MIT Licence
-    </Header>
+    <JDH2>MIT Licence</JDH2>
 
-    <p>Copyright (c) 2020 John Elliott Noble.</p>
+    <p>
+      Copyright (c) 2020 John Elliott Noble &lt;hello@johnnydecimal.com&gt;.
+    </p>
 
     <p>
       Permission is hereby granted, free of charge, to any person obtaining a

@@ -7,6 +7,7 @@ import { Header, Responsive, Grid, Image } from 'semantic-ui-react';
 import Layout from '../../components/Layout';
 import SEO from '../../components/SEO';
 import Navigation from '../../components/Navigation';
+import { JDH1, JDH2 } from '../../components/JDH1H2';
 
 // Helper functions, styles, images, etc.
 import styles from '../../styles/styles.module.css';
@@ -207,18 +208,14 @@ const AreasCategories = () => (
       }
     />
 
-    <Header size="huge" dividing className={styles.headerHuge_bordered}>
-      Areas & categories
-    </Header>
+    <JDH1>Areas & categories</JDH1>
 
     <p>
       Let’s look again at the format of our numbers. It’s crucial that you
       understand why they look like they do.
     </p>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      The complete Johnny.Decimal number
-    </Header>
+    <JDH2>The complete Johnny.Decimal number</JDH2>
 
     <p>Just as a reminder, every Johnny.Decimal number looks like this.</p>
 
@@ -253,9 +250,7 @@ const AreasCategories = () => (
     {/* Ugly hacks below as the breakpoints weren't working with the 'doubling'
     option for some reason. */}
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      Group things together (categories)
-    </Header>
+    <JDH2>Group things together (categories)</JDH2>
 
     <Responsive minWidth={992}>
       <Grid stackable doubling columns={2} className={styles.grid_twoColumn}>
@@ -302,9 +297,7 @@ const AreasCategories = () => (
       </Grid>
     </Responsive>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      Do it again (areas)
-    </Header>
+    <JDH2>Do it again (areas)</JDH2>
 
     <Responsive minWidth={992}>
       <Grid stackable doubling columns={2} className={styles.grid_twoColumn}>
@@ -372,9 +365,7 @@ const AreasCategories = () => (
       </Grid.Column>
     </Grid>
 
-    <Header size="huge" dividing className={styles.headerHuge_bordered}>
-      Of course, we’ve done this backwards
-    </Header>
+    <JDH1>Of course, we’ve done this backwards</JDH1>
 
     <p>
       When we decide to organise something with Johnny.Decimal, we don’t{' '}
@@ -447,9 +438,7 @@ const AreasCategories = () => (
       <CompanyWithNumbers />
     </pre>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      So long, cursed alphabet
-    </Header>
+    <JDH2>So long, cursed alphabet</JDH2>
 
     <p>
       What does this achieve? For one, it’s removed our dependence on the
@@ -498,9 +487,7 @@ const AreasCategories = () => (
       </strong>
     </p>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      The Johnny.Decimal version
-    </Header>
+    <JDH2>The Johnny.Decimal version</JDH2>
 
     <p>This is better:</p>
 
@@ -533,9 +520,7 @@ const AreasCategories = () => (
       </p>
     </div>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      20, 60, 30, 90, whatever
-    </Header>
+    <JDH2>20, 60, 30, 90, whatever</JDH2>
 
     <p>
       At this point you might be wondering, well, why is{' '}
@@ -547,9 +532,7 @@ const AreasCategories = () => (
       just numbers. 40 isn’t better or worse than 20.
     </p>
 
-    <Header size="huge" dividing className={styles.headerHuge_bordered}>
-      In summary
-    </Header>
+    <JDH1>In summary</JDH1>
 
     <p>
       On this page I’ve talked mostly about the way that we structure our areas

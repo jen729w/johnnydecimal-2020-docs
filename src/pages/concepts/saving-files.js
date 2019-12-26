@@ -6,6 +6,7 @@ import { Header, Grid, Image, Divider, Responsive } from 'semantic-ui-react';
 import Layout from '../../components/Layout';
 import SEO from '../../components/SEO';
 import Navigation from '../../components/Navigation';
+import { JDH1, JDH2 } from '../../components/JDH1H2';
 
 // Helper functions, styles, images, etc.
 import styles from '../../styles/styles.module.css';
@@ -23,9 +24,7 @@ const SavingFiles = () => (
       }
     />
 
-    <Header size="huge" dividing className={styles.headerHuge_bordered}>
-      Saving files
-    </Header>
+    <JDH1>Saving files</JDH1>
 
     <p>
       We’ve created areas containing categories and in those categories we have
@@ -39,9 +38,7 @@ const SavingFiles = () => (
       system.
     </p>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      Ooh, pretty
-    </Header>
+    <JDH2>Ooh, pretty</JDH2>
 
     <Grid stackable doubling columns={2} className={styles.grid_twoColumn}>
       <Grid.Column>
@@ -62,9 +59,7 @@ const SavingFiles = () => (
       </Grid.Column>
     </Grid>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      Never ever do this
-    </Header>
+    <JDH2>Never ever do this</JDH2>
 
     <Grid
       stackable
@@ -155,9 +150,7 @@ const SavingFiles = () => (
 
     <Divider section />
 
-    <Header size="huge" dividing className={styles.headerHuge_bordered}>
-      Nothing is more than two levels deep
-    </Header>
+    <JDH1>Nothing is more than two levels deep</JDH1>
 
     <p>
       <strong>
@@ -201,9 +194,7 @@ const SavingFiles = () => (
       where it is because it’s buried in this un-numbered folder.
     </p>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      This costs you real money
-    </Header>
+    <JDH2>This costs you real money</JDH2>
 
     <p>
       You lose stuff. You spend ridiculous amounts of time finding stuff. You
