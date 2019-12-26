@@ -6,6 +6,7 @@ import { Header, Grid, Image, Divider } from 'semantic-ui-react';
 import Layout from '../../components/Layout';
 import SEO from '../../components/SEO';
 import Navigation from '../../components/Navigation';
+import { JDH1, JDH2 } from '../../components/JDH1H2';
 
 // Helper functions, styles, images, etc.
 import styles from '../../styles/styles.module.css';
@@ -18,9 +19,7 @@ const ManagingEmail = () => (
       description={'How to use the Johnny.Decimal system to manage your email.'}
     />
 
-    <Header size="huge" dividing className={styles.headerHuge_bordered}>
-      Managing email
-    </Header>
+    <JDH1>Managing email</JDH1>
 
     <p>
       This won’t make you <em>enjoy</em> email, but maybe you’ll hate it a
@@ -132,9 +131,7 @@ const ManagingEmail = () => (
 
     <Divider section />
 
-    <Header size="huge" dividing className={styles.headerHuge_bordered}>
-      Putting things in folders
-    </Header>
+    <JDH1>Putting things in folders</JDH1>
 
     <p>
       Since we typically move a <em>lot</em> of emails in to folders, we want to

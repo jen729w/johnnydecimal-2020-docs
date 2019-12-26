@@ -7,6 +7,7 @@ import { Link } from 'gatsby';
 import Layout from '../../components/Layout';
 import SEO from '../../components/SEO';
 import Navigation from '../../components/Navigation';
+import { JDH1, JDH2 } from '../../components/JDH1H2';
 
 // Helper functions, styles, images, etc.
 import styles from '../../styles/styles.module.css';
@@ -19,9 +20,7 @@ const ExceptionsToTheRules = () => (
       description={'When are we allowed to bend the Johnny.Decimal rules?'}
     />
 
-    <Header size="huge" dividing className={styles.headerHuge_bordered}>
-      Exceptions to the rules
-    </Header>
+    <JDH1>Exceptions to the rules</JDH1>
 
     <p>
       <strong>Where it makes sense to do so</strong>, go ahead and break the
@@ -157,9 +156,7 @@ const ExceptionsToTheRules = () => (
 
     <Divider section />
 
-    <Header size="huge" dividing className={styles.headerHuge_bordered}>
-      Archiving files
-    </Header>
+    <JDH1>Archiving files</JDH1>
 
     <p>
       I need to keep old copies of files. Say it’s a spreadsheet that I’m

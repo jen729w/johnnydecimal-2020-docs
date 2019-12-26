@@ -7,6 +7,7 @@ import { Link } from 'gatsby';
 import Layout from '../../components/Layout';
 import SEO from '../../components/SEO';
 import Navigation from '../../components/Navigation';
+import { JDH1, JDH2 } from '../../components/JDH1H2';
 
 // Helper functions, styles, images, etc.
 import styles from '../../styles/styles.module.css';
@@ -18,9 +19,7 @@ const Concepts = () => (
       description={'A link to all of the Johnny.Decimal concepts pages.'}
     />
 
-    <Header size="huge" dividing className={styles.headerHuge_bordered}>
-      Concepts
-    </Header>
+    <JDH1>Concepts</JDH1>
 
     <p>
       In this section I will walk you through all of the core concepts in

@@ -7,6 +7,7 @@ import { Link } from 'gatsby';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import Navigation from '../components/Navigation';
+import { JDH1, JDH2 } from '../components/JDH1H2';
 
 // Helper functions, styles, images, etc.
 import styles from '../styles/styles.module.css';
@@ -14,9 +15,7 @@ import styles from '../styles/styles.module.css';
 const NotFound = () => (
   <Layout>
     <SEO title={'404'} description={'Johnny.Decimal’s 404 page.'} />
-    <Header size="huge" dividing className={styles.headerHuge_bordered}>
-      04.04
-    </Header>
+    <JDH1>04.04</JDH1>
 
     <p className={styles.footnote}>
       Strictly speaking, not an RFC 7231 compliant error code.

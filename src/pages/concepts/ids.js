@@ -6,6 +6,7 @@ import { Header } from 'semantic-ui-react';
 import Layout from '../../components/Layout';
 import SEO from '../../components/SEO';
 import Navigation from '../../components/Navigation';
+import { JDH1, JDH2 } from '../../components/JDH1H2';
 
 // Helper functions, styles, images, etc.
 import styles from '../../styles/styles.module.css';
@@ -19,9 +20,7 @@ const IDs = () => (
       }
     />
 
-    <Header size="huge" dividing className={styles.headerHuge_bordered}>
-      IDs
-    </Header>
+    <JDH1>IDs</JDH1>
 
     <p>
       Let’s get on to the decimal. We have a category—let’s say{' '}

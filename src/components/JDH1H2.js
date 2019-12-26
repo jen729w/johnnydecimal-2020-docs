@@ -6,9 +6,7 @@ import { Header } from 'semantic-ui-react';
 import styles from '../styles/styles.module.css';
 
 const JDH1 = ({ children }) => (
-  <Header size="huge" dividing className={styles.headerHuge_bordered}>
-    {children}
-  </Header>
+  <JDH1>   {children}</JDH1>
 );
 
 const JDH2 = ({ children }) => (

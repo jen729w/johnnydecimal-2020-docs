@@ -7,6 +7,7 @@ import { Link } from 'gatsby';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import Navigation from '../components/Navigation';
+import { JDH1, JDH2 } from '../components/JDH1H2';
 import ButtondownEmailForm from '../components/ButtondownEmail';
 
 // Helper functions, styles, images, etc.
@@ -15,9 +16,7 @@ import styles from '../styles/styles.module.css';
 const Contact = () => (
   <Layout>
     <SEO title={'Contact'} description={'How to get in touch with me.'} />
-    <Header size="huge" dividing className={styles.headerHuge_bordered}>
-      Contact me
-    </Header>
+    <JDH1>Contact me</JDH1>
     <p>
       However you like. My name is Johnny Noble.{' '}
       <span role="img" aria-label="Waving hand">

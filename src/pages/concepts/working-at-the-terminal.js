@@ -7,6 +7,7 @@ import { Link } from 'gatsby';
 import Layout from '../../components/Layout';
 import SEO from '../../components/SEO';
 import Navigation from '../../components/Navigation';
+import { JDH1, JDH2 } from '../../components/JDH1H2';
 
 // Helper functions, styles, images, etc.
 import styles from '../../styles/styles.module.css';
@@ -22,9 +23,7 @@ const Terminal = () => (
       }
     />
 
-    <Header size="huge" dividing className={styles.headerHuge_bordered}>
-      Working at the terminal
-    </Header>
+    <JDH1>Working at the terminal</JDH1>
 
     <p>
       The structured nature of the Johnny.Decimal numbering system lets you move

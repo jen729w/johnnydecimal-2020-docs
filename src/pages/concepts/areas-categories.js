@@ -7,6 +7,7 @@ import { Header, Responsive, Grid, Image } from 'semantic-ui-react';
 import Layout from '../../components/Layout';
 import SEO from '../../components/SEO';
 import Navigation from '../../components/Navigation';
+import { JDH1, JDH2 } from '../../components/JDH1H2';
 
 // Helper functions, styles, images, etc.
 import styles from '../../styles/styles.module.css';
@@ -207,9 +208,7 @@ const AreasCategories = () => (
       }
     />
 
-    <Header size="huge" dividing className={styles.headerHuge_bordered}>
-      Areas & categories
-    </Header>
+    <JDH1>Areas & categories</JDH1>
 
     <p>
       Let’s look again at the format of our numbers. It’s crucial that you
@@ -372,9 +371,7 @@ const AreasCategories = () => (
       </Grid.Column>
     </Grid>
 
-    <Header size="huge" dividing className={styles.headerHuge_bordered}>
-      Of course, we’ve done this backwards
-    </Header>
+    <JDH1>Of course, we’ve done this backwards</JDH1>
 
     <p>
       When we decide to organise something with Johnny.Decimal, we don’t{' '}
@@ -547,9 +544,7 @@ const AreasCategories = () => (
       just numbers. 40 isn’t better or worse than 20.
     </p>
 
-    <Header size="huge" dividing className={styles.headerHuge_bordered}>
-      In summary
-    </Header>
+    <JDH1>In summary</JDH1>
 
     <p>
       On this page I’ve talked mostly about the way that we structure our areas

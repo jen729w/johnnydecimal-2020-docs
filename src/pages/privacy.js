@@ -7,6 +7,7 @@ import { Link } from 'gatsby';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import Navigation from '../components/Navigation';
+import { JDH1, JDH2 } from '../components/JDH1H2';
 
 // Helper functions, styles, images, etc.
 import styles from '../styles/styles.module.css';
@@ -14,9 +15,7 @@ import styles from '../styles/styles.module.css';
 const Privacy = () => (
   <Layout>
     <SEO title={'Privacy'} description={'Johnny.Decimal’s privacy policy.'} />
-    <Header size="huge" dividing className={styles.headerHuge_bordered}>
-      Privacy
-    </Header>
+    <JDH1>Privacy</JDH1>
 
     <p>
       I’m just a nerd building a site for a thing that I personally find useful.

@@ -6,6 +6,7 @@ import { Header, Grid, Image, Divider, Responsive } from 'semantic-ui-react';
 import Layout from '../../components/Layout';
 import SEO from '../../components/SEO';
 import Navigation from '../../components/Navigation';
+import { JDH1, JDH2 } from '../../components/JDH1H2';
 
 // Helper functions, styles, images, etc.
 import styles from '../../styles/styles.module.css';
@@ -23,9 +24,7 @@ const SavingFiles = () => (
       }
     />
 
-    <Header size="huge" dividing className={styles.headerHuge_bordered}>
-      Saving files
-    </Header>
+    <JDH1>Saving files</JDH1>
 
     <p>
       We’ve created areas containing categories and in those categories we have
@@ -155,9 +154,7 @@ const SavingFiles = () => (
 
     <Divider section />
 
-    <Header size="huge" dividing className={styles.headerHuge_bordered}>
-      Nothing is more than two levels deep
-    </Header>
+    <JDH1>Nothing is more than two levels deep</JDH1>
 
     <p>
       <strong>

@@ -7,6 +7,7 @@ import { Link } from 'gatsby';
 import Layout from '../../components/Layout';
 import SEO from '../../components/SEO';
 import Navigation from '../../components/Navigation';
+import { JDH1, JDH2 } from '../../components/JDH1H2';
 
 // Helper functions, styles, images, etc.
 import styles from '../../styles/styles.module.css';
@@ -21,9 +22,7 @@ const DevelopingYourOwn = () => (
       description={'How do you develop your own Johnny.Decimal system?'}
     />
 
-    <Header size="huge" dividing className={styles.headerHuge_bordered}>
-      Developing your own system
-    </Header>
+    <JDH1>Developing your own system</JDH1>
 
     <p>To develop your own system, it should now be clear that you need to:</p>
 
@@ -39,9 +38,7 @@ const DevelopingYourOwn = () => (
 
     <Divider section />
 
-    <Header size="huge" dividing className={styles.headerHuge_bordered}>
-      Advice: don’t rush the process
-    </Header>
+    <JDH1>Advice: don’t rush the process</JDH1>
 
     <p>
       I’ve done this a lot now and the best piece of advice I can give is:{' '}
@@ -143,9 +140,7 @@ const DevelopingYourOwn = () => (
 
     <Divider section />
 
-    <Header size="huge" dividing className={styles.headerHuge_bordered}>
-      Ask for help
-    </Header>
+    <JDH1>Ask for help</JDH1>
 
     <p>
       I’ll help! <Link to="/contact/">Get in touch</Link>.

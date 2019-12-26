@@ -7,6 +7,7 @@ import { Link } from 'gatsby';
 import Layout from '../../components/Layout';
 import SEO from '../../components/SEO';
 import Navigation from '../../components/Navigation';
+import { JDH1, JDH2 } from '../../components/JDH1H2';
 
 // Helper functions, styles, images, etc.
 import styles from '../../styles/styles.module.css';
@@ -18,9 +19,7 @@ const WhatAbout0009 = () => (
       description={'Why haven’t we used 00-09 so far?'}
     />
 
-    <Header size="huge" dividing className={styles.headerHuge_bordered}>
-      What about 00-09?
-    </Header>
+    <JDH1>What about 00-09?</JDH1>
 
     <p>
       You may be wondering why we started our areas at{' '}
@@ -46,9 +45,7 @@ const WhatAbout0009 = () => (
 
     <Divider section />
 
-    <Header size="huge" dividing className={styles.headerHuge_bordered}>
-      00-09 is about the system itself
-    </Header>
+    <JDH1>00-09 is about the system itself</JDH1>
 
     <p>
       I always reserve these numbers for a special area called{' '}
@@ -96,9 +93,7 @@ const WhatAbout0009 = () => (
 
     <Divider section />
 
-    <Header size="huge" dividing className={styles.headerHuge_bordered}>
-      Confused? Don’t worry
-    </Header>
+    <JDH1>Confused? Don’t worry</JDH1>
 
     <p>If you want to use the zeros, use them. It doesn’t matter.</p>
 

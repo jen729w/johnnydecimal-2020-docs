@@ -8,6 +8,7 @@ import { Header, Divider, Grid, Image } from 'semantic-ui-react';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import Navigation from '../components/Navigation';
+import { JDH1, JDH2 } from '../components/JDH1H2';
 
 // Helper functions, styles, images, etc.
 import styles from '../styles/styles.module.css';
@@ -21,9 +22,7 @@ const IndexPage = () => (
       description={'Johnny.Decimal – a system to organise projects.'}
     />
 
-    <Header size="huge" dividing className={styles.headerHuge_bordered}>
-      A system to organise projects
-    </Header>
+    <JDH1>A system to organise projects</JDH1>
 
     <p>
       When we kept everything on paper, organised people had these things called
@@ -56,9 +55,7 @@ const IndexPage = () => (
 
     <Divider section />
 
-    <Header size="huge" dividing className={styles.headerHuge_bordered}>
-      It’s time to get organised
-    </Header>
+    <JDH1>It’s time to get organised</JDH1>
 
     <p>
       There are a couple of core concepts, and they’re so simple you’ll wonder
@@ -154,9 +151,7 @@ const IndexPage = () => (
 
     <Divider section />
 
-    <Header size="huge" dividing className={styles.headerHuge_bordered}>
-      Now we bring in the numbers
-    </Header>
+    <JDH1>Now we bring in the numbers</JDH1>
 
     <p>A Johnny.Decimal number looks like this:</p>
 
@@ -233,9 +228,7 @@ const IndexPage = () => (
 
     <Divider section />
 
-    <Header size="huge" dividing className={styles.headerHuge_bordered}>
-      I get the idea, but why bother?
-    </Header>
+    <JDH1>I get the idea, but why bother?</JDH1>
 
     <p>Many, many reasons.</p>
 

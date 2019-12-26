@@ -6,6 +6,7 @@ import { Header, Divider, Image } from 'semantic-ui-react';
 import Layout from '../../components/Layout';
 import SEO from '../../components/SEO';
 import Navigation from '../../components/Navigation';
+import { JDH1, JDH2 } from '../../components/JDH1H2';
 
 // Helper functions, styles, images, etc.
 import styles from '../../styles/styles.module.css';
@@ -19,9 +20,7 @@ const KeepingNotes = () => (
       description={'How to use the system to keep notes.'}
     />
 
-    <Header size="huge" dividing className={styles.headerHuge_bordered}>
-      Keeping notes
-    </Header>
+    <JDH1>Keeping notes</JDH1>
 
     <p>
       So far, we’ve mostly thought about using this system as somewhere to keep
@@ -77,9 +76,7 @@ const KeepingNotes = () => (
 
     <Divider section />
 
-    <Header size="huge" dividing className={styles.headerHuge_bordered}>
-      Use Simplenote
-    </Header>
+    <JDH1>Use Simplenote</JDH1>
 
     <p>
       You need some software. It’s free and available for every device you have.
@@ -155,9 +152,7 @@ const KeepingNotes = () => (
       Simplenote search box.
     </p>
 
-    <Header size="huge" dividing className={styles.headerHuge_bordered}>
-      Advanced note taking apps
-    </Header>
+    <JDH1>Advanced note taking apps</JDH1>
 
     <p>
       Here’s what I personally use – but don’t mess about here if you’re a
