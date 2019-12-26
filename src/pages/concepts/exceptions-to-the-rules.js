@@ -50,7 +50,7 @@ const ExceptionsToTheRules = () => (
       ${styles.johnnyDecimal_inlineBlock_marginBottom}
     `}
     >
-      14.01 Timesheets for 1601
+      14.01 Timesheets for 1601<sup>1</sup>
       <br />
       14.02 Timesheets for 1602
       <br />
@@ -62,12 +62,11 @@ const ExceptionsToTheRules = () => (
     <p
       className={`
       ${styles.footnote}
-      ${styles.footnote_leftBracketIndent}
     `}
     >
-      (I used ‘year-week’ as my date format, so{' '}
-      <span className={styles.johnnyDecimal_boxed}>1601</span> was the 1st week
-      of 2016. Use whatever works for you.)
+      <sup>1</sup> I use ‘year-week’ as my date format for this sort of thing,
+      so <span className={styles.johnnyDecimal_boxed}>1601</span> was the 1st
+      week of 2016. Use whatever works for you.&nbsp;&nbsp;
     </p>
 
     <p>
@@ -79,7 +78,7 @@ const ExceptionsToTheRules = () => (
 
     <p>
       More importantly, <span className={styles.johnnyDecimal_boxed}>1619</span>{' '}
-      was a <em>better</em> way to represent ‘the 19th week of 2016’ than{' '}
+      is a <em>better</em> way to represent ‘the 19th week of 2016’ than{' '}
       <span className={styles.johnnyDecimal_boxed}>14.19</span>. In this case,
       my numbers were getting in the way.
     </p>
