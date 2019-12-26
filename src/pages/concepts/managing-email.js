@@ -26,9 +26,7 @@ const ManagingEmail = () => (
       little less.
     </p>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      Make your Subject: work for you
-    </Header>
+    <JDH2>Make your Subject: work for you</JDH2>
 
     <p>
       There must be some sort of medical condition to describe the terrible
@@ -114,9 +112,7 @@ const ManagingEmail = () => (
       </strong>
     </p>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      “But I write useful Subject: lines!”
-    </Header>
+    <JDH2>“But I write useful Subject: lines!”</JDH2>
 
     <p>
       That might be the case. <em>You</em> do. But nobody else does.

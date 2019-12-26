@@ -38,9 +38,7 @@ const SavingFiles = () => (
       system.
     </p>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      Ooh, pretty
-    </Header>
+    <JDH2>Ooh, pretty</JDH2>
 
     <Grid stackable doubling columns={2} className={styles.grid_twoColumn}>
       <Grid.Column>
@@ -61,9 +59,7 @@ const SavingFiles = () => (
       </Grid.Column>
     </Grid>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      Never ever do this
-    </Header>
+    <JDH2>Never ever do this</JDH2>
 
     <Grid
       stackable
@@ -198,9 +194,7 @@ const SavingFiles = () => (
       where it is because it’s buried in this un-numbered folder.
     </p>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      This costs you real money
-    </Header>
+    <JDH2>This costs you real money</JDH2>
 
     <p>
       You lose stuff. You spend ridiculous amounts of time finding stuff. You

@@ -43,9 +43,7 @@ const Terminal = () => (
       style={{ width: '640px' }}
     />
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      Script your way around
-    </Header>
+    <JDH2>Script your way around</JDH2>
 
     <p>
       Easier still, use a simple bash script to change to any directory
@@ -70,9 +68,7 @@ const Terminal = () => (
       <span className={styles.johnnyDecimal_boxed}>$ cjd 34.27</span>.
     </p>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      Got any more?
-    </Header>
+    <JDH2>Got any more?</JDH2>
 
     <p>
       I’d love to build a collection of useful scripts here.{' '}

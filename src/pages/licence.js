@@ -19,11 +19,11 @@ const Licence = () => (
     />
     <JDH1>Licence</JDH1>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      MIT Licence
-    </Header>
+    <JDH2>MIT Licence</JDH2>
 
-    <p>Copyright (c) 2020 John Elliott Noble.</p>
+    <p>
+      Copyright (c) 2020 John Elliott Noble &lt;hello@johnnydecimal.com&gt;.
+    </p>
 
     <p>
       Permission is hereby granted, free of charge, to any person obtaining a

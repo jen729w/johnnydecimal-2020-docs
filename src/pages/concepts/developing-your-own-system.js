@@ -57,9 +57,7 @@ const DevelopingYourOwn = () => (
       which is possible, but a pain.
     </p>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      Think on it for a week
-    </Header>
+    <JDH2>Think on it for a week</JDH2>
 
     <p>
       I believe you should think on any new Johnny.Decimal system for{' '}
@@ -68,9 +66,7 @@ const DevelopingYourOwn = () => (
 
     <p>This thing will be with you for a long time; don’t rush it.</p>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      Use sticky notes or a mind map
-    </Header>
+    <JDH2>Use sticky notes or a mind map</JDH2>
 
     <p>
       During this week, write everything that you do on a sticky note. Use many
@@ -128,9 +124,7 @@ const DevelopingYourOwn = () => (
       }}
     />
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      Leave room to grow
-    </Header>
+    <JDH2>Leave room to grow</JDH2>
 
     <p>
       After almost 3 years managing a complex IT project, I had used about 30

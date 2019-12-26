@@ -29,9 +29,7 @@ const WhatAbout0009 = () => (
       rather than <span className={styles.johnnyDecimal_boxed}>10</span>.
     </p>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      We reserve these for the system
-    </Header>
+    <JDH2>We reserve these for the system</JDH2>
 
     <p>
       Sometimes you want to keep information <em>about the system</em>, in the
@@ -69,9 +67,7 @@ const WhatAbout0009 = () => (
       <span className={styles.johnnyDecimal_boxed}>00.00 Index</span>.
     </p>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      10, 20, 30 … 90 are about those categories
-    </Header>
+    <JDH2>10, 20, 30 … 90 are about those categories</JDH2>
 
     <p>
       In the example we’ve been using,{' '}

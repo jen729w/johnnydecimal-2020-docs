@@ -27,9 +27,7 @@ const ExceptionsToTheRules = () => (
       rules. I won’t judge you.
     </p>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      Storing things with dates in them
-    </Header>
+    <JDH2>Storing things with dates in them</JDH2>
 
     <p>
       An example from my life: I sent weekly timesheets to a company I worked
@@ -86,9 +84,7 @@ const ExceptionsToTheRules = () => (
       my numbers were getting in the way.
     </p>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      Folders inside Johnny.Decimal folders
-    </Header>
+    <JDH2>Folders inside Johnny.Decimal folders</JDH2>
 
     <p>I told you not to do this. I am not to be trusted.</p>
 

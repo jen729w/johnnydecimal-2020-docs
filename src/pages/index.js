@@ -36,9 +36,7 @@ const IndexPage = () => (
       anything.
     </p>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      Nobody can find anything any more
-    </Header>
+    <JDH2>Nobody can find anything any more</JDH2>
 
     <p>
       Thousands of emails. Hundreds of files. File structures created on a whim
@@ -68,9 +66,7 @@ const IndexPage = () => (
       without any additional tools.
     </p>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      Step 1: Divide everything in to ten things
-    </Header>
+    <JDH2>Step 1: Divide everything in to ten things</JDH2>
 
     <ol>
       <li>
@@ -88,9 +84,7 @@ const IndexPage = () => (
       <span className={styles.johnnyDecimal_boxed}>Finance</span>.
     </p>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      Step 2: In each area, divide in ten again
-    </Header>
+    <JDH2>Step 2: In each area, divide in ten again</JDH2>
 
     <p>
       Go through each bucket and repeat the process.{' '}
@@ -108,9 +102,7 @@ const IndexPage = () => (
       end up with a hundred categories.
     </p>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      Categories are the key
-    </Header>
+    <JDH2>Categories are the key</JDH2>
 
     <p>
       What’s a category? It’s just a collection of stuff. Book drafts. Travel
@@ -170,9 +162,7 @@ const IndexPage = () => (
 
     <p>Say it like “forty-two eighteen” or “twelve dot oh-three”.</p>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      Before the decimal: category
-    </Header>
+    <JDH2>Before the decimal: category</JDH2>
 
     <p>
       The decimal point is there to break the number up, but more importantly to
@@ -193,9 +183,7 @@ const IndexPage = () => (
       how many of your category numbers you remember.
     </p>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      After the decimal: ID
-    </Header>
+    <JDH2>After the decimal: ID</JDH2>
 
     <p>
       The number after the decimal is just a counter.{' '}
@@ -232,9 +220,7 @@ const IndexPage = () => (
 
     <p>Many, many reasons.</p>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      Organise your files. Properly
-    </Header>
+    <JDH2>Organise your files. Properly</JDH2>
 
     <p>
       The most obvious use of Johnny.Decimal is in organising your folder
@@ -270,9 +256,7 @@ const IndexPage = () => (
       find your way to the sales proposals directory.
     </p>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      Nothing is more than two clicks away, ever
-    </Header>
+    <JDH2>Nothing is more than two clicks away, ever</JDH2>
 
     <p>
       An important restriction of the system is that{' '}
@@ -287,9 +271,7 @@ const IndexPage = () => (
       you can always find what you want.
     </p>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      Tell people where things are
-    </Header>
+    <JDH2>Tell people where things are</JDH2>
 
     <p>
       “Hey Kristy, where can I find the payroll schedule?”
@@ -299,9 +281,7 @@ const IndexPage = () => (
 
     <p>Thanks, Kristy.</p>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      Open files and folders instantly
-    </Header>
+    <JDH2>Open files and folders instantly</JDH2>
 
     <p>
       Because your folders contain the Johnny.Decimal number, you can open them
@@ -351,9 +331,7 @@ const IndexPage = () => (
       <strong>&nbsp;54.14 My great folder $</strong> |&nbsp;&nbsp;
     </div>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      Fix your email
-    </Header>
+    <JDH2>Fix your email</JDH2>
 
     <p>
       Put the Johnny.Decimal number in your email subject and you’ve instantly
@@ -365,18 +343,14 @@ const IndexPage = () => (
       .
     </p>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      Display it on printed copies
-    </Header>
+    <JDH2>Display it on printed copies</JDH2>
 
     <p>
       Rather than including the complete file path on printed documentation,
       just add the Johnny.Decimal number.
     </p>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      Tag things in real life
-    </Header>
+    <JDH2>Tag things in real life</JDH2>
 
     <p>
       Managing physical objects? Just write the Johnny.Decimal number on a

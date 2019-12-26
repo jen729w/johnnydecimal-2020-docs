@@ -46,9 +46,7 @@ const Concepts = () => (
       <Link to="/contact/">get in touch</Link> and I will help you.
     </p>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      Core
-    </Header>
+    <JDH2>Core</JDH2>
 
     <p>
       You should be familiar with this section before you attempt to start your
@@ -78,9 +76,7 @@ const Concepts = () => (
       </List.Item>
     </List>
 
-    <Header size="large" dividing className={styles.headerLarge_bordered}>
-      Advanced
-    </Header>
+    <JDH2>Advanced</JDH2>
 
     <p>
       You do not need to know everything in this section initially, but you will
