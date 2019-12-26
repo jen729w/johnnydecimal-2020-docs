@@ -1,0 +1,108 @@
+/* Headers */
+.headerHuge_bordered {
+  border-bottom: 2.5px solid #444 !important;
+}
+
+.headerLarge_bordered {
+  border-bottom: 1.25px solid #444 !important;
+}
+
+/* Johnny.Decimal boxes */
+.johnnyDecimal_boxed {
+  border: 1px solid lightgrey !important;
+  border-radius: 3px !important;
+  background: #f0f0f0 !important;
+  font-family: 'Fira Mono' !important;
+  padding: 2px 4px !important;
+  line-height: 1.5em !important; /* Default of 1.7 is a bit high here */
+  /* white-space: nowrap !important; */
+}
+
+.johnnyDecimal_large {
+  font-size: 3rem !important;
+  line-height: 4.5rem !important;
+  margin: 10px 0 !important;
+}
+
+/* margin here overrides the browser's default style for <pre> */
+.johnnyDecimal_inlineBlock {
+  display: inline-block !important;
+  margin: 0 !important;
+  padding: 5px 10px !important;
+}
+
+/* Don't forget order is important, this padding needs to override
+   .johnnyDecimal_inlineBlock */
+.johnnyDecimal_emailSubject {
+  text-indent: -87px !important;
+  padding-left: 93px !important;
+  white-space: normal !important;
+}
+
+.johnnyDecimal_inlineBlock_marginBottom {
+  margin-bottom: 20px !important;
+}
+
+@media screen and (max-width: 567px) {
+  .johnnyDecimal_inlineBlock_smallFontForMobile {
+    font-size: 0.7em !important;
+    line-height: 1.6em;
+  }
+}
+
+/* Grids (typically for two-column layouts) */
+.grid_twoColumn {
+  margin-bottom: 0.5rem !important;
+}
+
+/* Formatting */
+.solidUnderline {
+  border-bottom: 1px solid #333 !important;
+}
+
+.dottedUnderline {
+  border-bottom: 1px dotted #333 !important;
+}
+
+.footnote {
+  display: inline-block;
+  padding: 5px 10px 5px 25px;
+  text-indent: -12px;
+  border: 1px solid gainsboro;
+  border-left: 8px solid gainsboro;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #666;
+  background: #f8f8f8;
+}
+
+.footnote_leftBracketIndent {
+  text-indent: -5px !important;
+}
+
+.fin {
+  /* font-size: 1.5em !important; */
+  color: #d4d4d4 !important;
+}
+
+.version {
+  color: #ddd !important;
+  font-size: 0.45em !important;
+}
+
+/* Mobile-only 'sorry about the menu' message. */
+/* .mobileOnly {
+  -- handled by a <Responsive> element now
+  display: none !important;
+} */
+
+@media screen and (max-width: 767px) {
+  .mobileOnly {
+    /* display: block !important; */
+    border: 1px solid #333 !important;
+    border-radius: 2px !important;
+    padding: 10px !important;
+    margin: 10px !important;
+    background: #eee !important;
+  }
+}

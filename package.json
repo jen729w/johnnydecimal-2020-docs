@@ -1,12 +1,14 @@
 {
-  "name": "gatsby-starter-semantic-ui",
-  "description": "Gatsby 2 Semantic UI Starter",
-  "version": "1.0.0",
-  "author": "Richard Blechinger <me@blechi.at>",
+  "name": "johnnydecimal",
+  "description": "Johnny.Decimal – documentation site",
+  "version": "3.0.0",
+  "author": "John Noble <hello@johnnydecimal.com>",
   "dependencies": {
     "gatsby": "2.18.14",
     "gatsby-plugin-less": "^3.0.17",
+    "gatsby-plugin-netlify": "^2.1.30",
     "gatsby-plugin-react-helmet": "3.1.18",
+    "gatsby-plugin-sitemap": "^2.2.24",
     "less": "^3.10.3",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
@@ -21,6 +23,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "local": "gatsby develop --host=0.0.0.0",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

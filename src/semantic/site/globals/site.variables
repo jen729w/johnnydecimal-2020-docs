@@ -6,20 +6,19 @@
        Fonts
 --------------------*/
 
-@fontName          : 'Lato';
+@fontName          : 'Fira Sans';
 @fontSmoothing     : antialiased;
 
-@headerFont        : @fontName, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@headerFont        : 'Playfair Display', Georgia, serif;
 @pageFont          : @fontName, 'Helvetica Neue', Arial, Helvetica, sans-serif;
 
-@googleFontName    : @fontName;
+@googleFontName    : 'Playfair+Display|Fira+Sans|Fira+Mono';
 @importGoogleFonts : true;
 @googleFontSizes   : '400,700,400italic,700italic';
 @googleSubset      : 'latin';
 
 @googleProtocol    : 'https://';
 @googleFontRequest : '@{googleFontName}:@{googleFontSizes}&subset=@{googleSubset}';
-
 
 @bold              : bold;
 @normal            : normal;
@@ -32,7 +31,7 @@
 @emSize   : 14px;
 
 /* The size of page text  */
-@fontSize : 14px;
+@fontSize : 16px;
 
 
 /*-------------------
@@ -124,7 +123,8 @@
 @pageBackground      : #FFFFFF;
 @pageOverflowX       : hidden;
 
-@lineHeight          : 1.4285em;
+/* @lineHeight          : 1.4285em; Default jen729w */
+@lineHeight          : 1.7em;
 @textColor           : rgba(0, 0, 0, 0.87);
 
 /*-------------------
