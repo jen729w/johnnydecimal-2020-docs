@@ -1,15 +1,14 @@
 // External components
 import React from 'react';
 import { Header } from 'semantic-ui-react';
-import { Link } from 'gatsby';
 
 // Internal components
-import Layout from '../../components/Layout';
-import SEO from '../../components/SEO';
-import Navigation from '../../components/Navigation';
+import Layout from '../components/Layout';
+import SEO from '../components/SEO';
+import Navigation from '../components/Navigation';
 
 // Helper functions, styles, images, etc.
-import styles from '../../styles/styles.module.css';
+import styles from '../styles/styles.module.css';
 
 const Licence = () => (
   <Layout>
