@@ -416,7 +416,7 @@ const AreasCategories = () => (
     <p>
       All we really do with Johnny.Decimal—and if at this point you’ve realised
       this and are thinking, “hang on, all he’s done is put numbers in front of
-      things” well then you’re not far wrong—is put numbers in front of things.
+      things,” well then you’re not far wrong—is put numbers in front of things.
     </p>
 
     <p>
