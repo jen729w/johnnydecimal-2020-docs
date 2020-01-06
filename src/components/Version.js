@@ -6,13 +6,14 @@ import React from 'react';
 // Helper functions, styles, images, etc.
 import styles from '../styles/styles.module.css';
 
-const Version = () => (
-  <div className={styles.version}>v3.0.0 2019-12-26 17:21</div>
-);
+const Version = () => <div className={styles.version}>2020-01-06 13:41</div>;
 
 export default Version;
 
 /* == Version number history ==================================================
+ *
+ * Eh this is fucking ridiculous. Why are you tracking version numbers for a
+ * documentation site that's already git controlled? Stop it.
  *
  * v3.0.0 2019-12-26 17:21  Started again to clear up the hot mess that was
  *                          authentication in the previous version.
