@@ -41,10 +41,10 @@ class Header extends React.Component {
                   <Menu.Item>
                     <div>
                       <a
-                        href="https://blog.johnnydecimal.com"
+                        href="https://play.johnnydecimal.com"
                         style={{ color: 'rgba(0, 0, 0, 0.87)' }}
                       >
-                        Blog
+                        Playground
                       </a>
                     </div>
                   </Menu.Item>
