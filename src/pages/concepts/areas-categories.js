@@ -188,7 +188,7 @@ const CompanyWithNumbers = () => (
     {`      22.02 Office lease               UNIQUE THING`}
     <br />
     {`   `}
-    <span className={styles.dottedUnderline}>32 Staffing</span>
+    <span className={styles.dottedUnderline}>23 Staffing</span>
     {`                         CATEGORY`}
     <br />
     <br />
