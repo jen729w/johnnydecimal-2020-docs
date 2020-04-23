@@ -141,7 +141,7 @@ const TrackingNumbers = () => (
     <div className={styles.footnote}>
       <p>
         <sup>1.</sup>&nbsp;Follow{' '}
-        <a href="https://blog.johnnydecimal.com">the blog</a> for
+        <a href="https://play.johnnydecimal.com">the blog</a> for
         updates.&nbsp;&nbsp;
       </p>
     </div>
